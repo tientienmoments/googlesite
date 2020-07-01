@@ -1,0 +1,149 @@
+body{
+    display:contents;
+    font-family: Arial, sans-serif;
+}
+a {
+    color: #1a0dab;
+}
+.logo {
+    margin-top: 100px;
+}
+nav{
+    float:right;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 10px;
+
+    }
+nav a{
+    text-decoration: none;
+    color:black;
+    padding-right:10px;
+ }
+ nav i{
+     padding-right: 10px;;
+ }
+ input {
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+ }
+ input:focus {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+ }
+ input:hover {
+    border: 1px solid white;
+  outline: 0px solid white;
+  box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  transition: padding 2s;
+ }
+section{
+margin-top: 100px;
+text-align: center;
+    }
+section i{
+  opacity: 0.5;
+}
+.googlebutton{
+    background-color: rgba(231, 230, 230, 0.774);
+    border:none;
+    margin:11px 10px;
+    padding: 0 16px;
+    line-height: 27px;
+    height:36px;
+    font-size: 14px;
+    border-radius: 3px;
+    width:150px;
+    color:rgb(119, 116, 116);
+
+}
+.googlebutton:hover {
+    width:149x;
+    border: 1px solid rgba(231, 230, 230, 0.774);
+    color: black;
+    cursor:pointer;
+    background-color: rgb(245,245,245);
+}
+.search-icon{
+    position: relative;
+    right: 20px;
+    top: 5px;
+    margin: auto;
+}
+.voice-icon {
+    position: relative;
+    right: 30px;
+    top:5px;
+    margin:auto;
+}
+.keyboard {
+    position: relative;
+    right:70px;
+    top: 5px;
+    margin:auto;
+}
+.others {
+   text-align: center; 
+   margin-top:10px;
+   font-size: 13px;
+}
+.others a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+.others a:hover {
+    text-decoration: underline;
+}
+.purple {
+    color: #660099;
+}
+footer {
+    background-color: #F2F2F2;
+    font-size: 13px;
+    color: #5F6368;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%
+}
+footer a{
+    text-decoration: none;
+    color: #5F6368;
+    margin-left: 10px;
+    padding: 15px 10px;
+    display: inline-block;
+
+}
+footer a:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+.vietnam {
+    display:block;
+    border-top:1px solid rgb(222,222,222);
+    border-bottom:1px solid rgb(222,222,222);
+    text-decoration: none;
+}
+.vietnam:hover {
+  text-decoration: none;
+  cursor: auto;
+}
+.group {
+    display: flex;
+}
+.group1 {
+    flex:1;
+}
+.group2 {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
